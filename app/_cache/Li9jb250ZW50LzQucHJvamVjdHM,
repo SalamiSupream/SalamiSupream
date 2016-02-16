@@ -1,0 +1,158 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+  "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>@title, @name's Portfolio </title>
+    <link rel="alternate" type="application/atom+xml" href="./?/feed/">
+    <link rel="stylesheet" href="./public/docs/css/screen.css" type="text/css" media="screen"> 
+  </head>
+  <body>
+    <div id="container">
+      <h1 class="col three">
+        <a href="./">@name</a>
+        <strong>@profession</strong>
+      </h1>
+      <em class="col three">@email</em>
+      <hr>
+      <ul id="navigation" class="col two">
+      <li>
+      <a href="./?/projects/">@title</a>
+        <ol class="children">
+      <li>
+      <a href="./?/projects/project-1/"></a>
+      
+    </li>
+      <li>
+      <a href="./?/projects/movie-project-2/"></a>
+      
+    </li>
+      <li>
+      <a href="./?/projects/project-name-3/"></a>
+      
+    </li>
+      <li>
+      <a href="./?/projects/youtube-project-4/"></a>
+      
+    </li>
+      <li>
+      <a href="./?/projects/vimeo-project-5/"></a>
+      
+    </li>
+      <li>
+      <a href="./?/projects/swf-project-6/"></a>
+      
+    </li>
+      <li>
+      <a href="./?/projects/mixed-media-project-7/"></a>
+      
+    </li>
+      <li>
+      <a href="./?/projects/project-name-8/"></a>
+      
+    </li>
+      <li>
+      <a href="./?/projects/project-name-9/"></a>
+      
+    </li>
+      <li>
+      <a href="./?/projects/project-name-10/"></a>
+      
+    </li>
+  
+  </ol>
+
+    </li>
+      <li>
+      <a href="./?/about/">@title</a>
+      
+    </li>
+      <li>
+      <a href="./?/contact-me/">@title</a>
+      
+    </li>
+  
+</ul>
+      <div id="content" class="col eight">
+          <ul class="projects">
+          <li class="col seven">
+        <p class="date col one">@date</p>
+        <h2 class="col five">
+          <img src="./content/4.projects/10.project-1/thumb.jpg" class="project-thumb" alt=""> 
+          <a href="./?/projects/project-1/">@title</a>
+        </h2>
+      </li>
+          <li class="col seven">
+        <p class="date col one">@date</p>
+        <h2 class="col five">
+          <img src="./content/4.projects/9.movie-project-2/thumb.jpg" class="project-thumb" alt=""> 
+          <a href="./?/projects/movie-project-2/">@title</a>
+        </h2>
+      </li>
+          <li class="col seven">
+        <p class="date col one">@date</p>
+        <h2 class="col five">
+          <img src="./content/4.projects/8.project-name-3/thumb.jpg" class="project-thumb" alt=""> 
+          <a href="./?/projects/project-name-3/">@title</a>
+        </h2>
+      </li>
+          <li class="col seven">
+        <p class="date col one">@date</p>
+        <h2 class="col five">
+          <img src="./content/4.projects/7.youtube-project-4/thumb.jpg" class="project-thumb" alt=""> 
+          <a href="./?/projects/youtube-project-4/">@title</a>
+        </h2>
+      </li>
+          <li class="col seven">
+        <p class="date col one">@date</p>
+        <h2 class="col five">
+          <img src="./content/4.projects/6.vimeo-project-5/thumb.jpg" class="project-thumb" alt=""> 
+          <a href="./?/projects/vimeo-project-5/">@title</a>
+        </h2>
+      </li>
+          <li class="col seven">
+        <p class="date col one">@date</p>
+        <h2 class="col five">
+          <img src="./content/4.projects/5.swf-project-6/thumb.jpg" class="project-thumb" alt=""> 
+          <a href="./?/projects/swf-project-6/">@title</a>
+        </h2>
+      </li>
+          <li class="col seven">
+        <p class="date col one">@date</p>
+        <h2 class="col five">
+          <img src="./content/4.projects/4.mixed-media-project-7/thumb.jpg" class="project-thumb" alt=""> 
+          <a href="./?/projects/mixed-media-project-7/">@title</a>
+        </h2>
+      </li>
+          <li class="col seven">
+        <p class="date col one">@date</p>
+        <h2 class="col five">
+          <img src="./content/4.projects/3.project-name-8/thumb.jpg" class="project-thumb" alt=""> 
+          <a href="./?/projects/project-name-8/">@title</a>
+        </h2>
+      </li>
+          <li class="col seven">
+        <p class="date col one">@date</p>
+        <h2 class="col five">
+          <img src="./content/4.projects/2.project-name-9/thumb.jpg" class="project-thumb" alt=""> 
+          <a href="./?/projects/project-name-9/">@title</a>
+        </h2>
+      </li>
+          <li class="col seven">
+        <p class="date col one">@date</p>
+        <h2 class="col five">
+          <img src="./content/4.projects/1.project-name-10/thumb.jpg" class="project-thumb" alt=""> 
+          <a href="./?/projects/project-name-10/">@title</a>
+        </h2>
+      </li>
+    
+  </ul>
+
+      </div>
+      <hr>
+      <p id="footer" class="col six">&copy; Copyright @name 2016 <a class="atom-rss" href="./?/feed/">RSS</a><br>
+        <em>Content managed by <a href="http://www.staceyapp.com">stacey</a></em></p>
+    </div>
+  </body>
+</html>
+<!-- Stacey(2.3.0): 36f5bc55a36189e842e28a560a429ae8 -->
